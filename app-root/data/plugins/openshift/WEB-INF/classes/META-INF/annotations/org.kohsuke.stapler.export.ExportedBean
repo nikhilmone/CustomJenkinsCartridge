@@ -1,0 +1,5 @@
+hudson.plugins.openshift.OpenShiftBuilderSizeJobProperty
+hudson.plugins.openshift.OpenShiftBuilderTimeoutJobProperty
+hudson.plugins.openshift.OpenShiftBuilderTypeJobProperty
+hudson.plugins.openshift.OpenShiftComputer
+hudson.plugins.openshift.OpenShiftSlave

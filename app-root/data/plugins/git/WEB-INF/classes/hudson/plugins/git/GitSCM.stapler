@@ -1,0 +1,2 @@
+#Fri Aug 05 13:34:12 PDT 2011
+constructor=scmName,repo,branches,doMerge,doGenerateSubmoduleConfigurations,submoduleCfg,clean,wipeOutWorkspace,buildChooser,browser,gitTool,authorOrCommitter,relativeTargetDir,excludedRegions,excludedUsers,localBranch,recursiveSubmodules,pruneBranches,remotePoll,gitConfigName,gitConfigEmail,skipTag

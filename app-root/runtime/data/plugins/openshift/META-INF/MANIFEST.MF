@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: bparees
+Build-Jdk: 1.7.0_45
+Extension-Name: openshift
+Implementation-Title: openshift
+Implementation-Version: 1.4
+Plugin-Class: hudson.plugins.openshift.PluginImpl
+Group-Id: hudson.plugins
+Short-Name: openshift
+Long-Name: OpenShift Origin Jenkins Cloud Plugin
+Url: http://www.openshift.com
+Plugin-Version: 1.4
+Hudson-Version: 1.536
+Jenkins-Version: 1.536
+Plugin-Developers: Matt Hicks:mhicks:mhicks@redhat.com
+

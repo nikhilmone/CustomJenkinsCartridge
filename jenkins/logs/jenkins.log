@@ -1,0 +1,53 @@
+Running from: /usr/lib/jenkins/jenkins.war
+webroot: System.getProperty("JENKINS_HOME")
+Feb 12, 2014 6:22:27 AM winstone.Logger logInternal
+INFO: Beginning extraction from war file
+Jenkins home directory: /var/lib/openshift/52fb5952e0b8cd8b9e00027c/app-root/data found at: System.getProperty("JENKINS_HOME")
+Feb 12, 2014 6:22:37 AM winstone.Logger logInternal
+INFO: HTTP Listener started: port=8080
+Feb 12, 2014 6:22:37 AM winstone.Logger logInternal
+INFO: Winstone Servlet Engine v0.9.10 running: controlPort=disabled
+Feb 12, 2014 6:22:38 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Feb 12, 2014 6:22:45 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Feb 12, 2014 6:22:45 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Feb 12, 2014 6:22:56 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Feb 12, 2014 6:22:56 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Feb 12, 2014 6:22:56 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Feb 12, 2014 6:22:56 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Feb 12, 2014 6:23:00 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@140b226: display name [Root WebApplicationContext]; startup date [Wed Feb 12 06:23:00 EST 2014]; root of context hierarchy
+Feb 12, 2014 6:23:00 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@140b226]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1baba00
+Feb 12, 2014 6:23:01 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1baba00: defining beans [authenticationManager]; root of factory hierarchy
+Feb 12, 2014 6:23:03 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@1a7b5d1: display name [Root WebApplicationContext]; startup date [Wed Feb 12 06:23:03 EST 2014]; root of context hierarchy
+Feb 12, 2014 6:23:03 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@1a7b5d1]: org.springframework.beans.factory.support.DefaultListableBeanFactory@18661f8
+Feb 12, 2014 6:23:03 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18661f8: defining beans [filter,legacy]; root of factory hierarchy
+Feb 12, 2014 6:23:03 AM jenkins.model.Jenkins <init>
+WARNING: Failed to broadcast over UDP
+java.net.BindException: Permission denied
+	at java.net.PlainDatagramSocketImpl.bind0(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.bind(AbstractPlainDatagramSocketImpl.java:95)
+	at java.net.DatagramSocket.bind(DatagramSocket.java:376)
+	at java.net.MulticastSocket.<init>(MulticastSocket.java:172)
+	at java.net.MulticastSocket.<init>(MulticastSocket.java:137)
+	at hudson.UDPBroadcastThread.<init>(UDPBroadcastThread.java:69)
+	at jenkins.model.Jenkins.<init>(Jenkins.java:822)
+	at hudson.model.Hudson.<init>(Hudson.java:81)
+	at hudson.model.Hudson.<init>(Hudson.java:77)
+	at hudson.WebAppMain$2.run(WebAppMain.java:214)
+
+Feb 12, 2014 6:23:03 AM hudson.WebAppMain$2 run
+INFO: Jenkins is fully up and running
+Feb 12, 2014 6:23:26 AM winstone.Logger logInternal
+WARNING: Called getInputStream after getParameter ... error

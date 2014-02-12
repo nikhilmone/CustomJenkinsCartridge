@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	logAllRefUpdates = true
+[remote "origin"]
+	url = /var/lib/openshift/52fb5952e0b8cd8b9e00027c/git/template

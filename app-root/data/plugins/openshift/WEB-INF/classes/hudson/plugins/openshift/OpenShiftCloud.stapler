@@ -1,0 +1,2 @@
+#Tue Jan 14 10:37:33 EST 2014
+constructor=username,password,brokerHost,brokerPort,proxyHost,proxyPort,ignoreBrokerCertCheck,slaveIdleTimeToLive,maxSlaveIdleTimeToLive,defaultBuilderSize
